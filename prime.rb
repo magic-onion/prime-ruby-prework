@@ -1,12 +1,7 @@
 # Add  code here!
 def prime?(number)
   tester =*(2..Math.sqrt(number)) 
-    for i in tester
-      if number % i == 0 
-        false
-      else
-        true
-      end
+    
     end
 
 end
