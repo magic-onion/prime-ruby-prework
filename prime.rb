@@ -5,7 +5,7 @@ def prime?(number)
     true
   elsif number <= 1 
     false
-  elsif tester.each {|i| number % i == 0}
+  elsif tester.any? {|i| number % i == 0}
     false
   else
     true
