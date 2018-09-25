@@ -5,12 +5,7 @@ def prime?(number)
     true
   elsif number <= 1 
     false
-  elsif tester.each {|i| number % i}
-  
-  end
-  tester =*(2..Math.sqrt(number)) 
-  thing = 
-  if thing == 0 
+  elsif tester.each {|i| number % i == 0}
     false
   else
     true
