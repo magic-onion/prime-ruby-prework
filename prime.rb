@@ -1,8 +1,12 @@
 # Add  code here!
 def prime?(number)
-  for i in (2..n)
-  if i % n == 0 
-    false 
-  else
-    true
-  end
+arr = (2..100)to_a 
+ arr.each {|i| 
+   if number % i == 0 
+     false 
+   else
+     true 
+   end
+ end
+end
+  
