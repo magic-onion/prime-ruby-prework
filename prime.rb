@@ -1,10 +1,10 @@
 # Add  code here!
 def prime?(number)
-  tester =*(2..Math.sqrt(number)) 
-  thing = tester.each {|i| number % i}
   if number <= 1 
     false
-  elsif thing == 0 
+  end
+  if thing == 0 tester =*(2..Math.sqrt(number)) 
+  thing = tester.each {|i| number % i}
     false
   else
     true
