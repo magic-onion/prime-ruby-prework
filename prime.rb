@@ -1,7 +1,12 @@
 # Add  code here!
 def prime?(number)
-  if number <= 1 
+  tester =* (2..number-1)
+  if number ==2 | number == 3
+    true
+  elsif number <= 1 
     false
+  elsif 
+  
   end
   tester =*(2..Math.sqrt(number)) 
   thing = tester.each {|i| number % i}
@@ -11,11 +16,3 @@ def prime?(number)
     true
   end
 end
-  
-##takes in an Integer from an Array##
-##provides a range of numbers from 2 to the square root of the integer##
-#tests that Integer to see if it modulos with a number from the range##
-
-
-#returns a boolean of false if the modulo equals 0 
-#returns true otherwise##
