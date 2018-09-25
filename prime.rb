@@ -1,9 +1,12 @@
 # Add  code here!
 def prime?(number)
   tester =*(2..Math.sqrt(number)) 
-    
-    end
-
+  thing = tester.each {|i| number % i}
+  if thing == 0 
+    false
+  else
+    true
+  end
 end
   
 ##takes in an Integer from an Array##
