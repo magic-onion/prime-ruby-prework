@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-number = a=*(-100..100)
+number = a=*(1..100)
   for i in number
   if number % i == 0 
     false 
